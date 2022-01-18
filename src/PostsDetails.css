@@ -1,0 +1,61 @@
+.PostsDetails {
+    margin-top: 15px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.PostsDetails > .tweet {
+ margin-left: 55px;
+ padding-bottom:10px ;
+
+
+}
+
+.PostDetails__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.PostDetails__more{
+    margin-right: 20px;
+}
+
+.PostsDetails__infos{
+    display: flex;
+    align-items: center;
+}
+.PostsDetails__infos > h3 {
+    margin-left: 5px;
+    font-size: small;
+}
+.PostsDetails__infos > h4 {
+    margin-left: 5px;
+    font-size: small;
+    color: rgb(167, 167, 167);
+}
+.PostsDetails__infos > p{
+    margin-left: 5px;
+    font-weight: 200;
+    color: rgb(165, 165, 165);
+    font-size: small;
+
+}
+.PostDetails__widget{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.PostDetails__widget > .widget__options{
+    font-weight: 400;
+    color: rgb(173, 171, 171);
+
+}
+.PostDetails__widget > .widget__options > .tool{
+    display: flex;
+    align-items: center;
+    
+}
+.PostDetails__widget > .widget__options > .tool >p{
+    margin-left: 3px;
+}

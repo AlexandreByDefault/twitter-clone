@@ -1,0 +1,11 @@
+.Account{
+    /* margin-top: 200px; */
+    padding: 5px 10px;
+}
+
+
+.Account:hover{
+    background-color: rgba(128, 128, 128, 0.548);
+    border-radius: 999px ;
+    
+}

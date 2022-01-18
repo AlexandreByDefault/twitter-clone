@@ -1,0 +1,42 @@
+.Sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0.5 auto auto;
+    height: 100%;
+    /* background-color: hotpink; */
+    
+
+}
+.Sidebar__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: large;
+    margin-top: -80%;
+  
+}
+
+.Sidebar > .Sidebar__container > button{
+    background-color: #00BA7C;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 999px;
+}
+.Sidebar > .Sidebar__container:hover> button{
+        background-color: #025539;
+        color: white;
+    
+}  
+.option__logo:hover{
+    background-color: #1d9cf093;
+    border-radius: 50px;
+}
+
+.siderow{
+    margin-top: 60px;
+}
+.Sidebar__account{
+    justify-content: flex-end;
+}

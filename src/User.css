@@ -1,0 +1,26 @@
+.User{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+   
+}
+
+.user__infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    font-size: small;
+    font-weight: 600;
+}
+.User > button{
+    background-color: #0F141A;
+    color: white;
+    cursor: pointer;
+    margin-left: 120px;
+    font-size: 10px ;
+    border-radius: 999px;
+    font-weight: 800;
+
+}
