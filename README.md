@@ -1,4 +1,4 @@
-Clone twitter with a bad ui 
+Clone twitter with a low ui 
 
 
 # Getting Started with Create React App
