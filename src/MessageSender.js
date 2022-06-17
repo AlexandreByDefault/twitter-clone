@@ -7,8 +7,8 @@ import PostsDetails from './PostsDetails';
 const MessageSender = () => {
 
 const [Input, setInput] = useState('');
- const [Posts,setPosts] = useState([])
-// this is the post i want export / voici la variable post que je veux exporter dans le Middle component afin de la mapper 
+const [Posts,setPosts] = useState([])
+// this is the post i want export / voici la variable post que je veux exporter dans le Middle component afin de la mapper
 
 
 console.log(Input)
@@ -30,4 +30,3 @@ const HandleInputValue = (event) => {
 
 
 export default MessageSender
- 
